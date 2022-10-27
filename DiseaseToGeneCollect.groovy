@@ -14,7 +14,7 @@ class DiseaseToGeneCollect extends BorderPane {
 
     def search = new TextField()
     def combox = new ComboBox(FXCollections.observableArrayList("OMIM", "GeneCard", "ALL", "DrugBank"))
-    def obtainBtn = new Button("Get")
+    def obtainBtn = new Button("Go")
 
     DiseaseToGeneCollect() {
         def hbox = new HBox()
